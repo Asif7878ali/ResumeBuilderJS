@@ -1,0 +1,183 @@
+/* styles.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+.form-group {
+    display: grid;
+    gap: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select,
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.center{
+      text-align: center;
+}
+
+.tableButtons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px; 
+}
+
+.view{
+    background-color: #41ef4d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.view:hover{
+    background-color: #056020;
+}
+.delete {
+    background-color: #e73838;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.delete:hover {
+    background-color: #9f0e10;
+}
+
+.edit {
+    background-color: #4dabe9;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.edit:hover {
+    background-color: #18009e;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+thead {
+    background-color: #555; /* Header background color */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444; /* Border color between rows */
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #444; /* Background color for even rows */
+}
+
+/* Style the first column (Name) differently if needed */
+th:first-child{
+    background-color: #333; /* Example: a different color for the first column */
+}
+/* styles.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+thead {
+    background-color: #555; /* Header background color */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444; /* Border color between rows */
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #444; /* Background color for even rows */
+}
+
+/* Style the first column (Name) differently if needed */
+th:first-child{
+    background-color: #555; /* Example: a different color for the first column */
+}
+td:first-child {
+    background-color: #333;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Generate Resume</h2>
+      <form id="Resume-Data" action="#" method="post" enctype="multipart/form-data">
+        <!-- Photo Upload -->
+        <div class="form-group">
+          <label for="photo">Photo Upload</label>
+          <input  type="file" id="photo" name="photo" accept="image/*" required/>
+        </div>
+
+        <!-- Name -->
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <!-- Phone Number -->
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+
+        <!-- Address -->
+        <div class="form-group">
+          <label for="address">Address</label>
+          <textarea id="address" name="address" required></textarea>
+        </div>
+
+        <!-- Gender -->
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+            <option value="Male">Male</option>
+          </select>
+        </div>
+
+        <!-- Date of Birth -->
+        <div class="form-group">
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" name="dob" required />
+        </div>
+
+        <!-- Skills (Multiple Selectors) -->
+        <div class="form-group">
+          <label for="skills">Skills</label>
+          <select id="skills" name="skills">
+            <option value="Front-End Developer">Front-End Developer</option>
+            <option value="Back-End Developer">Back-End Developer</option>
+            <option value="Full Stack Developer">Full Stack Developer</option>
+            <option value="dot.Net Developer">dot.Net Developer</option>
+          </select>
+        </div>
+
+        <!-- Education -->
+        <div class="form-group">
+          <label for="education">Education</label>
+          <input type="text" id="education" name="education" required />
+        </div>
+
+        <!-- Experience with Company -->
+        <div class="form-group">
+          <label for="experience">Experience</label>
+          <input type="text" id="experience" name="experience" required />
+        </div>
+
+        <!-- Years in HTML and CSS -->
+        <div class="form-group">
+          <label for="years">Company</label>
+          <input type="text" id="company" name="company" required />
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <h1 class="center">Details</h1>
+    <ul id="resumeList"></ul>
+  </body>
+</html>
